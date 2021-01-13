@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Cats!</title>
+    <!-- Bootstrap 4.5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    header {
+        background-color: white;
+    }
+    .nav {
+        padding: 10px 0px;
+        background-color: #5cad6d;
+    }
+    .nav-link {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    main-container {
+
+    }
+    .row {
+        margin: 50px 10px;
+    }
+    footer{
+        background-color: #white;
+        color: black;
+        border-top: black 1px solid;
+    }
+    h5 {
+        font-weight: 500;
+        color: #5CADA3;
+    }
+    h4 {
+        color: #5cad6d;
+    }
+    .btn {
+        background-color: #14b3ff;
+        color: white;
+        border: #14b3ff 2px solid;
+    }
+    .btn:hover {
+        background-color: #5bcaff;
+        color: white;
+        border: #5bcaff 2px solid;
+    }
+    img {
+        padding-bottom: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Header-->
+    <header>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ARTICLES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+        </ul>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="container-fluid main-container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>Kittens 101: Turning a Terror Into an Angel in 100 Steps</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                   <img src="cat-photo.jpg" class="img-fluid">
+                </div>
+                <div class="col-sm-12 col-md-8">
+                     <h5 class="text-center">Sub-Title One</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                     <h5 class="text-center">Sub-Title Two</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                     <div class="container">
+                        <div class="row">
+                          <div class="col text-center">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid footer-container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>&#169; 2020 [companyname]. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <center>[CONTACT US FORM GOES HERE]</center>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Bootstrap 4.5 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
